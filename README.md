@@ -2,6 +2,8 @@ My LaTeX template for experiment report.
 
 # Compiling
 
+Need to have `pdflatex` for compiling.
+
 Use command
 
 ```
