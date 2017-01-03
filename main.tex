@@ -1,0 +1,42 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{amssymb,amsmath,latexsym,dsfont}
+%\usepackage{algorithmic}
+\usepackage[ruled]{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{comment}
+%\usepackage{float,cite}
+%\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{{./figures/}}
+\usepackage{geometry}
+  \geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=10mm,
+    right=10mm,
+    top=10mm,
+  }
+\title{Sample title}
+\author{The Author}
+
+\begin{document}
+\maketitle
+
+\section{Sample section}
+\subsection{Sample subsection}
+
+Figure \ref{fig:pusheen} are sample figures about pusheen!
+
+\begin{figure*}[hb]
+	\begin{tabular}{@{}l@{}l@{}l@{}}
+    \subfigure[\texttt{sample 1}]{\includegraphics[width=.33\linewidth]{pusheen.png}} &
+    \subfigure[\texttt{sample 2}]{\includegraphics[width=.33\linewidth]{pusheen.png}} &
+    \subfigure[\texttt{sample 3}]{\includegraphics[width=.33\linewidth]{pusheen.png}} \\ 
+	\end{tabular}
+  \caption{pusheen!!}\label{fig:pusheen}
+\end{figure*}
+
+\end{document}  
